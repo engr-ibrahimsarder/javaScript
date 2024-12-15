@@ -51,11 +51,20 @@ function gold(ana){
 
 // arrow function
 // let sum = (num1, num2) => num1 + num2;
-let sum = (num1, num2) => {
-    let total = num1 + num2;
-    return total * total;
-};
-console.log(sum(10, 20));
+// parameter num1, parameter num2
+// let sum = (num1, num2) => {
+//     let total = num1 + num2;
+//     return total * total;
+// };
+// console.log(sum(10, 20)); argument pass 10, 20
 
-
-
+// higher order function
+// function sum(num1, num2, add){
+//     return add(num1, num2)
+// };
+// let add = (number1, number2) => number1 + number2;
+// console.log(sum(30, 20, add))
+// IIFE
+(function (name){
+    console.log(name)
+})("alif")
