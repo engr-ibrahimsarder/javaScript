@@ -68,3 +68,12 @@ function gold(ana){
 (function (name){
     console.log(name)
 })("alif")
+
+let x = 100;
+x %= 10;
+
+
+// console.log(x);
+
+
+
